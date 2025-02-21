@@ -1,0 +1,62 @@
+:root {
+  /* Color */
+  --ds-color-primary: #1814F3;
+  --ds-color-secondary: #E7EDFF;
+  --ds-color-light: #ffffff;
+  --ds-color-dark: #444444;
+
+  --ds-color-primary-dark: color-mix(in hsl, var(--ds-color-primary), black 25%);
+  --ds-color-secondary-dark: color-mix(in hsl, var(--ds-color-secondary), black 25%);
+
+  /* Spacer */
+  --ds-spacer-base: 1rem;
+  --ds-spacer-0: 0;
+  --ds-spacer-1: calc(var(--ds-spacer-base) * 0.25);
+  --ds-spacer-2: calc(var(--ds-spacer-base) * 0.5);
+  --ds-spacer-3: var(--ds-spacer-base);
+  --ds-spacer-4: calc(var(--ds-spacer-base) * 1.5);
+  --ds-spacer-5: calc(var(--ds-spacer-base) * 2);
+  --ds-spacer-6: calc(var(--ds-spacer-base) * 3);
+
+  /* Grid Breakpoint */
+  --ds-grid-breakpoint-xs: 0;
+  --ds-grid-breakpoint-sm: 576px;
+  --ds-grid-breakpoint-md: 768px;
+  --ds-grid-breakpoint-lg: 992px;
+  --ds-grid-breakpoint-xl: 1200px;
+  --ds-grid-breakpoint-xxl: 1400px;
+
+  /* Container Width */
+  --ds-container-max-width-sm: 540px;
+  --ds-container-max-width-md: 720px;
+  --ds-container-max-width-lg: 960px;
+  --ds-container-max-width-xl: 1140px;
+  --ds-container-max-width-xxl: 1320px;
+
+  /* Border Radius */
+  --ds-border-radius-base: .375rem;
+  --ds-border-radius-sm: .25rem;
+  --ds-border-radius-md: var(--ds-border-radius-base);
+  --ds-border-radius-lg: .5rem;
+  --ds-border-radius-xl: 1rem;
+  --ds-border-radius-xxl: 2rem;
+  --ds-border-radius-circle: 50%;
+  --ds-border-radius-pill: 50rem;
+
+  /* Font Size */
+  --ds-font-size-base: 1rem; /* 16px */
+  --ds-font-size-sm: .875rem; /* 14px */
+  --ds-font-size-lg: 1.25rem; /* 20px */
+
+  /* Font Weight */
+  --ds-font-weight-light: 300;
+  --ds-font-weight-normal: 400;
+  --ds-font-weight-medium: 500;
+  --ds-font-weight-semibold: 600;
+  --ds-font-weight-bold: 700;
+
+  /* Line Height */
+  --ds-line-height-base: 1.5;
+  --ds-line-height-sm: 1.25;
+  --ds-line-height-lg: 2;
+}
